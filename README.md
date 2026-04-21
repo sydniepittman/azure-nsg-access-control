@@ -7,7 +7,7 @@ Designed and deployed a secure 3-tier network architecture in Azure. Project com
 Often in enterprises, flat networks allow for attackers to move freely between systems once inside. This projects implements segmentation to contain breaches and reduce blast radius.
 
 ## Architecture
-![Network Diagram](diagrams/architecture)
+![Network Diagram](diagrams/architecture.png)
 - **Web Tier (10.0.1.0/24):** Public facing, allows HTTP/HTTPS only
 - **App Tier (10.0.2.0/24):** Internal only, accepts traffic from 
   web tier exclusively

@@ -26,7 +26,7 @@ Used Azure Network Watcher IP Flow Verify to confirm all rules function as desig
 
 | Test | Source | Destination | Port | Expected | Result |
 |------|--------|-------------|------|----------|--------|
-| 1 | Internet (8.8.8.8) | vm-web | 80 | Allow | ![Results](testing/allowWeb.png) |
+| 1 | Internet (8.8.8.8) | vm-web | 80 | Allow | ![Results](testing/AllowWeb.png) |
 | 2 | Internet (8.8.8.8) | vm-db | 1433 | Deny | ![Results](testing/IPFlowResult(DenyDB).png)|
 | 3 | vm-app (10.0.2.4) | vm-db | 1433 | Allow | ![Results](testing/AllowFromAppTest.png) |
 | 4 | vm-web (10.0.1.4) | vm-db | 1433 | Deny | ![Results](testing/WebToDBDeny.png) |

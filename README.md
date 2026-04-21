@@ -1,7 +1,7 @@
 # Azure Network Security Group (NSG) Access Control
 
 ## Overview
-Designed and deployed a secure 3-tier network architectute in Azure. Project completed using Network Security Groups (NSGs) to follow principle of least-privilege access control between network segments.
+Designed and deployed a secure 3-tier network architecture in Azure. Project completed using Network Security Groups (NSGs) to follow principle of least-privilege access control between network segments.
 
 ## Problem Statement
 Often in enterprises, flat networks allow for attackers to move freely between systems once inside. This projects implements segmentation to contain breaches and reduce blast radius.
